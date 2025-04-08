@@ -1,0 +1,11 @@
+
+stages:
+  - simple_echo
+
+variables:
+  TEST_ACCOUNT: "test_account"
+
+simple_echo:
+  stage: simple_echo
+  script: 
+    - echo "CI execution started for demo"
